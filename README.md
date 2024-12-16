@@ -10,8 +10,7 @@ This repository is a fork of [python-chromedriver-autoinstaller](https://github.
 This function retrieves the download URL for Chromedriver without performing the actual download. It serves as an alternative to the existing `download_chromedriver` function.  
 
 ```python
-def get_driver_url(path: Optional[AnyStr] = None, no_ssl: bool = False):
-    """Returns the download URL for Chromedriver."""
+def get_download_url(path: Optional[AnyStr] = None, no_ssl: bool = False):
 ```
 
 ---

@@ -1,10 +1,10 @@
-# py-chromedriver-installer  
+# py-chromedriver-autoinstaller  
 
 [![GitHub](https://img.shields.io/github/license/farhaanaliii/py-chromedriver-autoinstaller)](https://github.com/farhaanaliii/py-chromedriver-autoinstaller/blob/main/LICENSE)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/farhaanaliii/py-chromedriver-autoinstaller)](https://github.com/farhaanaliii/py-chromedriver-autoinstaller/releases)
 [![PyPI](https://img.shields.io/pypi/v/py-chromedriver-autoinstaller)](https://pypi.org/project/py-chromedriver-autoinstaller/)
 
-This repository is a fork of [python-chromedriver-autoinstaller](https://github.com/yeongbin-jo/python-chromedriver-autoinstaller), renamed to **py-chromedriver-installer**. It improves upon the original by fixing issues with detecting Chrome versions on Windows and introducing a new function to retrieve the download URL for Chromedriver.
+This repository is a fork of [python-chromedriver-autoinstaller](https://github.com/yeongbin-jo/python-chromedriver-autoinstaller), renamed to **py-chromedriver-autoinstaller**. It improves upon the original by fixing issues with detecting Chrome versions on Windows and introducing a new function to retrieve the download URL for Chromedriver.
 
 ## Key Updates  
 - **Fixed:** Detection of Chrome versions on Windows.  
@@ -22,11 +22,11 @@ def get_download_url(path: Optional[AnyStr] = None, no_ssl: bool = False):
 ## Installation  
 
 ```bash
-pip install py-chromedriver-installer
+pip install py-chromedriver-autoinstaller
 ```  
 
 ## Usage  
-Import `py-chromedriver-installer` to automatically handle Chromedriver installation or fetch the driver URL.
+Import `py-chromedriver-autoinstaller` to automatically handle Chromedriver installation or fetch the driver URL.
 
 ### Example: Auto-Installation  
 ```python

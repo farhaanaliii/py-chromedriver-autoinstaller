@@ -25,7 +25,7 @@ elif sys.argv[-1] == "clean":
 
 setup(
     name="py-chromedriver-autoinstaller",
-    version="1.0.0",
+    version="1.0.1",
     author="Farhan Ali",
     author_email="i.farhanali.dev@gmail.com",
     description="Automatically install chromedriver that supports the currently installed version of chrome.",
